@@ -1,0 +1,8 @@
+[
+    { "day": "LUNES"},
+    { "day": "MARTES", "paragraph": "prueba de ingles","date":"9/11/2001"},
+    { "day": "MIERCOLES", "paragraph": "prueba de ingles","date":"9/11/2001"},
+    { "day": "JUEVES", "paragraph": "prueba de ingles","date":"9/11/2001"},
+    { "day": "VIERNES", "paragraph": "prueba de ingles","date":"9/11/2001"}
+
+]
