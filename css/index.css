@@ -94,7 +94,9 @@ header {
 .dropbtn{
     display: none;
 }
-
+.dropdown-content {
+    display: none;
+}
 @media screen and (min-width: 200px) and (max-width:767px) {
     .container {
         display: flex;
