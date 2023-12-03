@@ -6,17 +6,39 @@
         <title>Horarios</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/calendario.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <a href="index.html" class="header_button">Novedades</a>
-            <a href="horarios.html" class="header_button">Horarios</a>
-            <a href="pruebas.html" class="header_button">Pruebas</a>
+        <header class="header">
+            <h1 class="h1">
+                <a href="#" class="logo">LOS PAPUS</a>
+            </h1>
+
+            <button class="button" onclick="toggleImage()">
+                <img id="menuIcon" class="svg" src="img/bars-solid.svg" alt="">
+            </button>
+            
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="index.html" class="a">Novedades</a></li>
+                    <li class="li"><a href="horarios.html" class="a">Horarios</a></li>
+                    <li class="li"><a href="pruebas.html" class="a">Pruebas</a></li>
+                </ul>
+            </nav>
         </header>
+        <script src="script/menu.js"></script>
         <div class="container">
 
         </div>
         <script src=script/calendario-script.js></script>
+        <div class="bardo">
+            <center><h2>TANTO VAN A QUERER VER SI ES RESPONSIVE?HDP!</h2></center>
+            <img src="img/momo.jpg" alt="" width="180px" height="180px">
+            <h3>-Mauri</h3>
+        </div>
+        <footer class="footer">
+            <center><p>Pagina hecha por alumnos de 6º 4ª de la escuela tecnica</p></center>
+        </footer>
     </body>
 </html>

@@ -7,28 +7,44 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <!--<button class="header_button">Novedades</button>
-            <button class="header_button">Horarios</button>
-            <button class="header_button">Pruebas</button>-->
-            <a href="index.html" class="header_button">Novedades</a>
-            <a href="horarios.html" class="header_button">Horarios</a>
-            <a href="pruebas.html" class="header_button">Pruebas</a>
-            <div class="dropdown">
-                <img onclick="myFunction()" src="bars-solid.svg" alt="mauri el crack" class="dropbtn">
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                </div>
-            </div>
-            <script src="script/menu.js"></script>
+        <header class="header">
+            <h1 class="h1">
+                <a href="#" class="logo">LOS PAPUS</a>
+            </h1>
+
+            <button class="button" onclick="toggleImage()">
+                <img id="menuIcon" class="svg" src="img/bars-solid.svg" alt="">
+            </button>
+            
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="index.html" class="a">Novedades</a></li>
+                    <li class="li"><a href="horarios.html" class="a">Horarios</a></li>
+                    <li class="li"><a href="pruebas.html" class="a">Pruebas</a></li>
+                    <div id="dark-mode">
+                        <div class="toggle"></div>
+                    </div>
+                    
+                </ul>
+                
+            </nav>
         </header>
+        <script src="script/menu.js"></script>
         <div class="container">
 
         </div>
+        <div class="bardo">
+            <center><h2>TANTO VAN A QUERER VER SI ES RESPONSIVE?HDP!</h2></center>
+            <img src="img/momo.jpg" alt="" width="180px" height="180px">
+            <h3>-Mauri</h3>
+        </div>
         <script src="script.js"></script>
+        <footer class="footer">
+            <center><p>Pagina hecha por los papus</p></center>
+        </footer>
+        <script src="script/darkmode.js"></script>
     </body>
 </html>
