@@ -10,11 +10,6 @@ function createCards(data) {
     });
 }
 
-fetch('script/data.json')
-    .then(response => response.json())
-    .then(data => createCards(data))
-    .catch(error => console.error('Error fetching data:', error));
-
 document.addEventListener('DOMContentLoaded', function() {
     var toggle = document.getElementById('dark-mode');
     var header = document.querySelector('header')
@@ -32,4 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
         container.classList.toggle('active');
     }
 });
-    
+
+fetch('script/data.json')
+    .then(response => response.json())
+    .then(data => createCards(data))
+    .catch(error => console.error('Error fetching data:', error));
