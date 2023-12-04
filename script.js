@@ -1,22 +1,35 @@
 function createCards(data) {
     var container = document.querySelector('.container');
 
-    // Iterate over the JSON data
     data.forEach(function (card) {
-        // Create card element
         var newCard = document.createElement('div');
         newCard.classList.add('card');
-
-        // Add content to the card
         newCard.innerHTML = `<h2>${card.title}</h2><h4>${card.date}</h4><p>${card.paragraph}</p>`;
 
-        // Add the card to the container
         container.appendChild(newCard);
     });
 }
 
-// Fetch data from JSON file
 fetch('script/data.json')
     .then(response => response.json())
     .then(data => createCards(data))
     .catch(error => console.error('Error fetching data:', error));
+
+document.addEventListener('DOMContentLoaded', function() {
+    var toggle = document.getElementById('dark-mode');
+    var header = document.querySelector('header')
+    var container = document.querySelector('.container');
+    var footer = document.querySelector('.footer');
+    var cards = container.querySelectorAll('.card');
+
+    toggle.onclick = function(){
+        cards.forEach(function(card) {
+            card.classList.toggle('active');
+        });
+        footer.classList.toggle('active');
+        toggle.classList.toggle('active');
+        header.classList.toggle('active');
+        container.classList.toggle('active');
+    }
+});
+    
