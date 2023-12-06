@@ -21,12 +21,12 @@ function saveInGitHub() {
     })
     .then(response => response.json())
     .then(data => {
-        var content = atob(data.content);
+        var content = decodeURIComponent(escape(atob(data.content)));
 
         var existingData = JSON.parse(content);
         existingData.push(jsonData);
 
-        data.content = btoa(JSON.stringify(existingData));
+        data.content = btoa(unescape(encodeURIComponent(JSON.stringify(existingData))));
 
         var commitMessage = 'Actualizar archivo JSON con nuevos datos';
         return fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
