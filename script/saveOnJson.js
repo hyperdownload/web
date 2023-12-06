@@ -11,7 +11,7 @@ function saveInGitHub() {
     var token = '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';
     var username = 'hyperdownload';
     var repo = 'web';
-    var path = 'data.json';
+    var path = 'script/data.json';
 
     fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
         method: 'GET',
