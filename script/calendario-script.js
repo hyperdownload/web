@@ -8,7 +8,7 @@ function createCards(data) {
         newCard.classList.add('card');
 
         // Add content to the card
-        newCard.innerHTML = `<h2>${card.day}</h2><h4>${card.date}</h4><p>${card.paragraph}</p>`;
+        newCard.innerHTML = `<h2>${card.day}</h2><p>${card.p1}</p><p>${card.p2}</p><p>${card.p3}</p><p>${card.p4}</p><p>${card.p5}</p>`;
 
         // Add the card to the container
         container.appendChild(newCard);

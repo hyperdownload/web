@@ -1,13 +1,23 @@
-[
+[    
     {
-        "title": "Primer \"nota\"",
-        "paragraph": "El sistema de notas funciona correctamente en el apartado de novedades.",
-        "date": "29/11/2023"
+        "title": "nota 03",
+        "paragraph": "con css grid es mejor a la hora de hacer mas columnas",
+        "date": "4/12/2023"
     },
     {
-        "title": "Servicio en modo BETA",
-        "paragraph": "La pagina en general se encuentra en un estado de desarrollo y esta puede no funcionar como corresponde hasta solucionar gran parte de los errores.",
-        "date": "29/11/2023"
+        "title": "nota 02",
+        "paragraph": "el problema... no funciona el column-reverse",
+        "date": "3/12/2023"
+    },
+    {
+        "title": "nota 01",
+        "paragraph": "asi que cambie el json xd",
+        "date": "2/12/2023"
+    },
+    {
+        "title": "Dia de parrilla",
+        "paragraph": "En el dia de hoy se haran hamburguesas con el profesor San Martin y el profesor de I.O, recuerden llevar su propio vaso y tratar de colaborar con le\u00f1a y/o carbon.",
+        "date": "01/12/2023"
     },
     {
         "title": "Cierre de notas en el taller",
@@ -15,8 +25,13 @@
         "date": "30/11/2023"
     },
     {
-        "title": "Dia de parrilla",
-        "paragraph": "En el dia de hoy se haran hamburguesas con el profesor San Martin y el profesor de I.O, recuerden llevar su propio vaso y tratar de colaborar con le\u00f1a y/o carbon.",
-        "date": "01/12/2023"
+        "title": "Servicio en modo BETA",
+        "paragraph": "La pagina en general se encuentra en un estado de desarrollo y esta puede no funcionar como corresponde hasta solucionar gran parte de los errores.",
+        "date": "29/11/2023"
+    },
+    {
+        "title": "Primer \"nota\"",
+        "paragraph": "El sistema de notas funciona correctamente en el apartado de novedades.",
+        "date": "29/11/2023"
     }
 ]

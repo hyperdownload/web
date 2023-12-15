@@ -1,8 +1,8 @@
 [
-    { "day": "LUNES"},
-    { "day": "MARTES", "paragraph": "prueba de ingles","date":"9/11/2001"},
-    { "day": "MIERCOLES", "paragraph": "prueba de ingles","date":"9/11/2001"},
-    { "day": "JUEVES", "paragraph": "prueba de ingles","date":"9/11/2001"},
-    { "day": "VIERNES", "paragraph": "prueba de ingles","date":"9/11/2001"}
+    { "day": "LUNES", "p1": "ingles", "p2": "Matematica", "p3": "Matematica", "p4": "Arte", "p5": "Literatura"},
+    { "day": "MARTES", "p1": "ingles", "p2": "Matematica", "p3": "Matematica", "p4": "Arte", "p5": "Literatura"},
+    { "day": "MIERCOLES", "p1": "ingles", "p2": "Matematica", "p3": "Matematica", "p4": "Arte", "p5": "Literatura"},
+    { "day": "JUEVES", "p1": "ingles", "p2": "Matematica", "p3": "Matematica", "p4": "Arte", "p5": "Literatura"},
+    { "day": "VIERNES", "p1": "ingles", "p2": "Matematica", "p3": "Matematica", "p4": "Arte", "p5": "Literatura"}
 
 ]

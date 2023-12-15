@@ -3,16 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Horarios</title>
+        <title>Novedades</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/calendario.css">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
     </head>
     <body>
         <header class="header">
             <h1 class="h1">
-                <a href="#" class="logo">LOS PAPUS</a>
+                <a href="index.html" class="logo">LOS PAPUS</a>
             </h1>
 
             <button class="button" onclick="toggleImage()">
@@ -24,7 +25,13 @@
                     <li class="li"><a href="index.html" class="a">Novedades</a></li>
                     <li class="li"><a href="horarios.html" class="a">Horarios</a></li>
                     <li class="li"><a href="pruebas.html" class="a">Pruebas</a></li>
+                    <li class="li"><a href="so.html" class="a">+ cards</a></li>
+                    <div id="dark-mode">
+                        <div class="toggle"></div>
+                    </div>
+                    
                 </ul>
+                
             </nav>
         </header>
         <script src="script/menu.js"></script>
@@ -38,7 +45,20 @@
             <h3>-Mauri</h3>
         </div>
         <footer class="footer">
-            <center><p>Pagina hecha por alumnos de 6º 4ª de la escuela tecnica</p></center>
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="index.html" class="a">Novedades</a></li>
+                    <li class="li"><a href="horarios.html" class="a">Horarios</a></li>
+                    <li class="li"><a href="pruebas.html" class="a">Pruebas</a></li>
+                </ul>
+            </nav>
+            <div class="container-footer">
+                <p class="footer-text">LOS PAPUS es un sitio web dedicado a ofrecer noticias, novedades y detalles importantes para el curso de 6º4ª. Aquí podrás encontrar información actualizada sobre pruebas, trabajos prácticos, horarios de clases y otros eventos relevantes, manteniéndote al tanto de todo lo que sucede en el curso de manera rápida y accesible. Nuestro objetivo es brindar una plataforma centralizada para una experiencia educativa más informada y completa.</p>
+                <h1 class="h1">
+                    <a href="index.html" class="logo">- LOS PAPUS</a>
+                </h1>
+            </div>
         </footer>
+        <script src="script/darkmode.js"></script>
     </body>
 </html>
