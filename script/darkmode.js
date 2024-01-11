@@ -7,9 +7,9 @@ $(document).ready(function() {
     var cards = document.querySelectorAll('.card');
    
     $('#dark-mode').click(function(){
-        console.log(cards)
+        
         cards.forEach(function(card) {
-            console.log(card);
+            
             card.classList.toggle('active');
         });
         lis.forEach(function(li) {
